@@ -2,8 +2,8 @@ export const projects = [
   {
     title: "Contarino Automobile",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
+      "Este proyecto lo hice mediante el curso de CoderHouse de Desarrollo Web, en donde toda la teoría que yo tenía sobre HTML y CSS las implemente por primera vez en código y a lo largo del tiempo le agregue algunos Frameworks más.",
+    image: "/images/Proyecto-CA.jpg",
     tags: ["HTML", "SASS", "Bootstrap"],
     source: "https://proyectocoder-github-io.vercel.app/",
     visit:
@@ -13,39 +13,44 @@ export const projects = [
   {
     title: "Disney+ Clone",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
+      "Primer proyecto que hice utilizando ReactJs, en donde implemente mis conocimientos de mis cursos y decidí hacer un Clone de Disney+ para poder complementar diferentes tecnologias en un mismo proyecto.",
+    image: "/images/disney+clone.jpg",
     tags: ["ReactJs", "Styled-Components", "Firebase"],
     source: "https://google.com",
     visit: "https://github.com/GuidoContarino/CloneDiney-",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Portfolio Personal",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
+      "Este proyecto de Portfolio Personal, que es en el que se encuentra lo agrego, ya que utilizo tecnologías que me encuentro aprendiendo de forma autodidacta y aún no las habia implementado anteriormente en otros proyectos.",
+    image: "/images/PortfolioPersonal.jpg",
+    tags: ["ReactJs", "NextJs", "Styled-Components"],
     source: "https://google.com",
-    visit: "https://google.com",
+    visit: "https://github.com/GuidoContarino/Portfolio-Guido",
     id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    year: 2022,
+    text: "Agosto de este año, comienzo mi primer curso de forma autodidacta de HTML y CSS.",
+  },
+  {
+    year: 2022,
+    text: "En Mayo de este año, me anoto a la carrera de Desarrollo Front-End ReactJs en CoderHouse. ",
+  },
+  {
+    year: 2022,
+    text: "En Diciembre finalizo mi carrera iniciada en CoderHouse de Front-End Dev ReactJs",
+  },
+  {
+    year: 2023,
+    text: "Comienzo el año haciendo diversos proyectos, como Disney+ Clone y mi portfolio personal.",
+  },
+  {
+    year: 2023,
+    text: "Busco mi primer experiencia laboral como Front-End Dev.",
+  },
 ];
